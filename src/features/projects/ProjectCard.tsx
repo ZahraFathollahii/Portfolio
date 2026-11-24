@@ -59,7 +59,7 @@ export async function ProjectCard({ project, locale }: ProjectCardProps) {
       padding="none"
       className="min-w-0"
     >
-      <article aria-labelledby={titleId} className="flex h-full flex-col">
+      <article aria-labelledby={titleId} className="flex h-full min-w-0 flex-col">
         {project.featured && (
           <div className={styles.cover} data-project={slug} aria-hidden>
             <span className={styles.initial}>{slug[0]?.toUpperCase()}</span>

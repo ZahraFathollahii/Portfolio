@@ -2,9 +2,10 @@
   --cover-bg: #374538;
   --cover-ink: #d8e3bb;
   position: relative;
-  min-height: 12rem;
+  width: 100%;
+  min-width: 0;
+  height: clamp(11.5rem, 18vw, 14.25rem);
   overflow: hidden;
-  aspect-ratio: 2.55;
   background: var(--cover-bg);
   border-start-start-radius: calc(var(--radius-card) - 1px);
   border-start-end-radius: calc(var(--radius-card) - 1px);
