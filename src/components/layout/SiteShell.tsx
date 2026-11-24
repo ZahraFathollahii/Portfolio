@@ -4,6 +4,7 @@ import { CursorCompanion } from "@/components/layout/CursorCompanion";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { ScrollProgress } from "@/components/layout/ScrollProgress";
+import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import { SkipLink } from "@/components/layout/SkipLink";
 import type { Locale } from "@/i18n/settings";
 
@@ -23,6 +24,7 @@ export function SiteShell({ locale, children }: SiteShellProps) {
         {children}
       </main>
       <Footer locale={locale} />
+      <ScrollToTop />
     </>
   );
 }
