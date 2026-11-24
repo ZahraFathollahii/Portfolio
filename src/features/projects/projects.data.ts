@@ -247,22 +247,6 @@ const allProjects = [
     hasCaseStudy: false,
   },
   {
-    slug: "specialty-pharmacy-aggregator",
-    url: null,
-    techs: [
-      "React",
-      "TypeScript",
-      "TanStack Query",
-      "Redux Toolkit",
-      "Ant Design",
-      "Tailwind CSS",
-      "Vite",
-    ],
-    statusKey: null,
-    featured: false,
-    hasCaseStudy: false,
-  },
-  {
     slug: "sepehr-website",
     url: "https://picsepehr.com/",
     techs: [

@@ -263,17 +263,6 @@
       "Developed pharmacy discovery with maps, paginated loading and normalized API responses."
     ]
   },
-  "specialty-pharmacy-aggregator": {
-    "title": "Specialized Pharmacy Aggregator",
-    "subtitle": "Specialized Prescription Coordination",
-    "category": "Healthcare · Specialized pharmacy",
-    "summary": "Implemented specialized prescription submission and pharmacy-reservation interfaces with role-specific panels. Integrated operator/supervisor management and cache invalidation after prescription mutations.",
-    "role": "Front-End Contributor",
-    "highlights": [
-      "Implemented specialized prescription submission and pharmacy-reservation interfaces with role-specific panels.",
-      "Integrated operator/supervisor management and cache invalidation after prescription mutations."
-    ]
-  },
   "sepehr-website": {
     "title": "Pardazeshgaran Sepehr Website",
     "subtitle": "Corporate Website & Article Publishing",
