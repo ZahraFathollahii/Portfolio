@@ -17,18 +17,22 @@
   --cover-bg: #443b2b;
   --cover-ink: #ead8af;
 }
+
 .cover[data-project="mssp"] {
   --cover-bg: #263844;
   --cover-ink: #bcd3e0;
 }
+
 .cover[data-project="picopet"] {
   --cover-bg: #503e44;
   --cover-ink: #ead5d9;
 }
+
 .cover[data-project="salam-operator"] {
   --cover-bg: #2b4543;
   --cover-ink: #cae5dd;
 }
+
 .cover[data-project="cancermed"] {
   --cover-bg: #42394d;
   --cover-ink: #ddd1ec;
@@ -105,16 +109,20 @@
   border-style: dashed;
   opacity: 0.6;
 }
+
 .cover[data-project="mssp"] .ring {
   border-radius: 25%;
   transform: rotate(15deg);
 }
+
 .cover[data-project="ganotic"] .ring {
   border-radius: 45% 20% 45% 20%;
 }
+
 .cover[data-project="picopet"] .ring {
   border-radius: 30% 50% 30% 50%;
 }
+
 .cover[data-project="cancermed"] .ring {
   border-radius: 30%;
   transform: rotate(45deg);
@@ -131,13 +139,16 @@
     width: 7rem;
     inset-inline-end: 5%;
   }
+
   .symbol > svg {
     width: 3rem;
     height: 3rem;
   }
+
   .identifier {
     inset-inline-start: 1.5rem;
   }
+
   .coverName {
     inset-inline-start: 1.5rem;
     font-size: 1.625rem;

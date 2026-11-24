@@ -36,7 +36,6 @@ export async function SelectedWork({ locale }: SelectedWorkProps) {
       {more.length > 0 && (
         <MoreProjectsToggle
           title={t("work.moreTitle")}
-          description={t("work.moreIntro")}
           previewTitles={previewTitles}
           moreCountLabel={moreCountLabel}
           showMoreLabel={tActions("showMoreProjects", {

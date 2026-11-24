@@ -5,7 +5,7 @@ import { FiChevronDown, FiChevronUp, FiFolder } from "react-icons/fi";
 
 type MoreProjectsToggleProps = {
   title: string;
-  description: string;
+  description?: string;
   previewTitles: string[];
   moreCountLabel?: string;
   showMoreLabel: string;
@@ -38,7 +38,9 @@ export function MoreProjectsToggle({
                 {title}
               </h3>
             </div>
-            <p className="mt-2 max-w-xl text-sm text-muted">{description}</p>
+            {description && (
+              <p className="mt-2 max-w-xl text-sm text-muted">{description}</p>
+            )}
           </div>
           <button
             type="button"
