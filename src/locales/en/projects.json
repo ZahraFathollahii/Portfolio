@@ -1,0 +1,332 @@
+{
+  "status": {
+    "ganoticLaunch": "Since 2026"
+  },
+  "labels": {
+    "role": "My role",
+    "status": "Status",
+    "stack": "Tech stack",
+    "privateSource": "Source code is private",
+    "projectNavigation": "Project navigation",
+    "contributions": "Technical contributions"
+  },
+  "caseStudy": {
+    "context": "Context",
+    "scope": "My scope",
+    "decisions": "Key decisions",
+    "challenges": "What was hard",
+    "result": "Result",
+    "gallery": "Screenshots"
+  },
+  "mssp": {
+    "title": "MSSP",
+    "subtitle": "Managed Security Services Platform",
+    "category": "Cybersecurity",
+    "summary": "Managed security services with administrator, customer and SOC workspaces, security dashboards and REST API integration.",
+    "role": "Front-End Developer · UI/UX Designer",
+    "caseStudy": {
+      "context": "A managed security services platform with separate administrator, customer and SOC workspaces.",
+      "scope": "Designed the UI/UX in Figma and developed core workspace interfaces and security dashboards. Integrated REST APIs with TanStack Query for caching, pagination and response normalization, and wrote unit and integration tests for API services and authentication flows using Vitest.",
+      "decisions": [
+        {
+          "title": "TODO",
+          "body": "TODO"
+        },
+        {
+          "title": "TODO",
+          "body": "TODO"
+        }
+      ],
+      "challenges": "TODO",
+      "result": "TODO"
+    },
+    "highlights": [
+      "Designed UI/UX in Figma and developed administrator, customer and SOC workspaces with security dashboards.",
+      "Integrated API caching, pagination and response normalization; wrote Vitest tests for services and authentication."
+    ]
+  },
+  "payesh": {
+    "title": "Payesh",
+    "subtitle": "Occupational Health Monitoring System",
+    "category": "Occupational health · Enterprise",
+    "summary": "An enterprise occupational health platform with role-based organization and clinic workflows, clinical examination forms and health contract management.",
+    "role": "Front-End Developer",
+    "caseStudy": {
+      "context": "An occupational health monitoring platform with role-based interfaces for organizations and medical clinics.",
+      "scope": "Developed clinical examination forms with shared Redux state, multi-step onboarding and SMS verification.",
+      "decisions": [
+        {
+          "title": "TODO",
+          "body": "TODO"
+        },
+        {
+          "title": "TODO",
+          "body": "TODO"
+        }
+      ],
+      "challenges": "TODO",
+      "result": "TODO"
+    },
+    "highlights": [
+      "Developed clinical examination forms and multi-step onboarding with shared Redux state.",
+      "Integrated role-specific organization/clinic workflows and cached API data for occupational health records."
+    ]
+  },
+  "picopet": {
+    "title": "PicoPet",
+    "subtitle": "Bilingual Veterinary Healthcare Platform",
+    "category": "Veterinary healthcare",
+    "summary": "A Persian/English veterinary care platform with appointment scheduling, pet medical records and role-based interfaces.",
+    "role": "Front-End Developer",
+    "caseStudy": {
+      "context": "PicoPet is a comprehensive veterinary platform streamlining clinic discovery, specialist appointments, and pet medical history.",
+      "scope": "Developed appointment scheduling and pet medical record management for pet owners, veterinarians and administrators. Implemented Persian/English localization with RTL/LTR support and API caching with TanStack Query.",
+      "decisions": [
+        {
+          "title": "TODO",
+          "body": "TODO"
+        },
+        {
+          "title": "TODO",
+          "body": "TODO"
+        }
+      ],
+      "challenges": "TODO",
+      "result": "TODO"
+    },
+    "highlights": [
+      "Developed appointment scheduling and pet medical-record interfaces for owners, veterinarians and administrators.",
+      "Implemented Persian/English localization with RTL/LTR layouts and TanStack Query API caching."
+    ]
+  },
+  "salam-operator": {
+    "title": "Salam",
+    "subtitle": "Ministry of Health National Healthcare Platform",
+    "category": "National healthcare · Ministry of Health",
+    "summary": "Iran’s Ministry of Health national platform for appointment booking, patient health records and remote consultations.",
+    "role": "Front-End Developer",
+    "caseStudy": {
+      "context": "A national Ministry of Health platform for healthcare appointments, patient health records and telemedicine.",
+      "scope": "Developed Jalali appointment booking, filterable specialist directories with infinite loading and map-based discovery, and patient health-record interfaces with themed medical charts. Implemented text consultations with file attachments, integrated APIs for video and voice meeting links and payment verification, and delivered real-time SSE notifications with browser alerts through Service Workers.",
+      "decisions": [
+        {
+          "title": "TODO",
+          "body": "TODO"
+        },
+        {
+          "title": "TODO",
+          "body": "TODO"
+        }
+      ],
+      "challenges": "TODO",
+      "result": "TODO"
+    },
+    "highlights": [
+      "Developed Jalali booking and filterable specialist directories with infinite loading and map-based discovery.",
+      "Integrated text consultations, meeting/payment APIs and SSE browser alerts through Service Workers."
+    ]
+  },
+  "ganotic": {
+    "title": "Ganotic",
+    "subtitle": "Health & Wellness E-Commerce Platform",
+    "category": "Health & wellness · E-commerce",
+    "summary": "A health and wellness e-commerce platform with a Persian RTL Next.js PWA storefront, React admin panel and a reusable Figma design system.",
+    "role": "Front-End Developer · UI/UX Designer",
+    "caseStudy": {
+      "context": "A health and wellness e-commerce platform with a storefront and administration panel.",
+      "scope": "Developed an installable Next.js PWA storefront with Persian RTL support and SEO-focused implementation. Built a React admin panel with order management, product catalog filtering and payment gateway integration, and designed the UI/UX and reusable design system in Figma.",
+      "decisions": [
+        {
+          "title": "TODO",
+          "body": "TODO"
+        },
+        {
+          "title": "TODO",
+          "body": "TODO"
+        }
+      ],
+      "challenges": "TODO",
+      "result": "TODO"
+    },
+    "highlights": [
+      "Developed a Persian RTL Next.js PWA storefront and React admin panel for orders, catalog filtering and payments.",
+      "Designed the UI/UX and reusable design system in Figma."
+    ]
+  },
+  "sepehr-pharmacy": {
+    "title": "Sepehr Online Pharmacy",
+    "subtitle": "Pharmacy Management & E-Commerce Platform",
+    "category": "Healthtech · Pharmacy",
+    "summary": "Product and prescription checkout with cart, shipping, payments and invoices; real-time prescription updates, inventory search and filtering, Excel product uploads, and PWA installation and update flows.",
+    "role": "Front-End Developer",
+    "highlights": [
+      "Developed product/prescription checkout with cart, shipping, payments and invoice generation.",
+      "Implemented real-time prescription updates, inventory tools, Excel uploads and PWA installation/update flows."
+    ]
+  },
+  "sepehr-salamat": {
+    "title": "Sepehr Salamat",
+    "subtitle": "Medical Center & Cancer Pathway System",
+    "category": "Healthtech · Medical Office",
+    "summary": "Doctor, receptionist and patient panels with multi-insurer e-prescription forms, appointments and patient records; interactive cancer treatment pathways in React Flow with version-conflict handling, request retries and unsaved-change warnings.",
+    "role": "Front-End Developer",
+    "highlights": [
+      "Developed doctor, receptionist and patient panels with multi-insurer e-prescriptions, appointments and patient records.",
+      "Implemented React Flow cancer pathways with version-conflict handling, request retries and unsaved-change warnings."
+    ]
+  },
+  "4040": {
+    "title": "4040",
+    "subtitle": "Health Services & Patient Portal",
+    "category": "Healthcare",
+    "summary": "Integrated SSO callbacks and guarded patient routes with validated post-login destinations. Developed paginated prescription history and medical charts with typed API integration.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Integrated SSO callbacks and guarded patient routes with validated post-login destinations.",
+      "Developed paginated prescription history and medical charts with typed API integration."
+    ]
+  },
+  "helsan-admin": {
+    "title": "Salam Admin",
+    "subtitle": "Healthcare Administration Panel",
+    "category": "Healthcare administration",
+    "summary": "Implemented provider verification, role-upgrade and account-restriction interfaces. Developed support-ticket conversations and application-log inspection with typed API integration.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Implemented provider verification, role-upgrade and account-restriction interfaces.",
+      "Developed support-ticket conversations and application-log inspection with typed API integration."
+    ]
+  },
+  "consultation-admin": {
+    "title": "Consultation Admin",
+    "subtitle": "Telemedicine Operations Panel",
+    "category": "Telemedicine administration",
+    "summary": "Developed filtered, paginated views for consultation orders, cancellations and meeting-link failures. Integrated meeting-link retry actions with cache invalidation and provider-category management.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Developed filtered, paginated views for consultation orders, cancellations and meeting-link failures.",
+      "Integrated meeting-link retry actions with cache invalidation and provider-category management."
+    ]
+  },
+  "document-management": {
+    "title": "Document Management",
+    "subtitle": "Versioned Documents & Media Workspace",
+    "category": "Document management",
+    "summary": "Implemented versioned document/media uploads, categorized search and per-user access-management interfaces. Integrated attachment handling and ZIP downloads through document-management APIs.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Implemented versioned document/media uploads, categorized search and per-user access-management interfaces.",
+      "Integrated attachment handling and ZIP downloads through document-management APIs."
+    ]
+  },
+  "hub-panel": {
+    "title": "Hub Panel",
+    "subtitle": "Service Management & Reporting Portal",
+    "category": "Enterprise services",
+    "summary": "Developed role-specific workspaces for service catalogs, client assignments and service requests. Integrated API-driven operational charts, reports and downloadable service documentation.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Developed role-specific workspaces for service catalogs, client assignments and service requests.",
+      "Integrated API-driven operational charts, reports and downloadable service documentation."
+    ]
+  },
+  "laboratory": {
+    "title": "Laboratory Management",
+    "subtitle": "Laboratory Prescriptions & Results",
+    "category": "Healthcare · Laboratory",
+    "summary": "Implemented electronic and paper prescription workflows across insurance providers. Developed laboratory-result upload, review and patient-facing retrieval interfaces.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Implemented electronic and paper prescription workflows across insurance providers.",
+      "Developed laboratory-result upload, review and patient-facing retrieval interfaces."
+    ]
+  },
+  "paraclinic": {
+    "title": "Paraclinic Management",
+    "subtitle": "Multi-Insurance Prescription Processing",
+    "category": "Healthcare · Paraclinic",
+    "summary": "Developed multi-insurer prescription inquiry, service selection and submission workflows. Integrated insurance-specific service search, attachment uploads and cached API queries.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Developed multi-insurer prescription inquiry, service selection and submission workflows.",
+      "Integrated insurance-specific service search, attachment uploads and cached API queries."
+    ]
+  },
+  "pharmacy-aggregator": {
+    "title": "Pharmacy Aggregator",
+    "subtitle": "Prescription Routing & Pharmacy Discovery",
+    "category": "Healthcare · Pharmacy network",
+    "summary": "Implemented prescription reservation and order-tracking workflows across patient, operator and pharmacy-supervisor panels. Developed pharmacy discovery with maps, paginated loading and normalized API responses.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Implemented prescription reservation and order-tracking workflows across patient, operator and pharmacy-supervisor panels.",
+      "Developed pharmacy discovery with maps, paginated loading and normalized API responses."
+    ]
+  },
+  "specialty-pharmacy-aggregator": {
+    "title": "Specialized Pharmacy Aggregator",
+    "subtitle": "Specialized Prescription Coordination",
+    "category": "Healthcare · Specialized pharmacy",
+    "summary": "Implemented specialized prescription submission and pharmacy-reservation interfaces with role-specific panels. Integrated operator/supervisor management and cache invalidation after prescription mutations.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Implemented specialized prescription submission and pharmacy-reservation interfaces with role-specific panels.",
+      "Integrated operator/supervisor management and cache invalidation after prescription mutations."
+    ]
+  },
+  "sepehr-website": {
+    "title": "Pardazeshgaran Sepehr Website",
+    "subtitle": "Corporate Website & Article Publishing",
+    "category": "Corporate website",
+    "summary": "Developed article-publishing interfaces with rich-text editing and media uploads. Implemented localized route metadata and responsive product, article and company-information pages.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Developed article-publishing interfaces with rich-text editing and media uploads.",
+      "Implemented localized route metadata and responsive product, article and company-information pages."
+    ]
+  },
+  "registration-portal": {
+    "title": "Registration Portal",
+    "subtitle": "Applicant Registration & Monitoring",
+    "category": "Registration · Administration",
+    "summary": "Implemented applicant profiles, family-information forms and supporting-document submission workflows. Developed administrator monitoring with chart drill-downs, filtered user lists and account controls.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Implemented applicant profiles, family-information forms and supporting-document submission workflows.",
+      "Developed administrator monitoring with chart drill-downs, filtered user lists and account controls."
+    ]
+  },
+  "training-management": {
+    "title": "Training Management",
+    "subtitle": "Organizational Training Planning & Delivery",
+    "category": "Enterprise training",
+    "summary": "Developed course, training-run and contract-management interfaces within organization-specific workspaces. Integrated Zod-validated APIs, CSRF-token handling and recovery from active-assignment changes.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Developed course, training-run and contract-management interfaces within organization-specific workspaces.",
+      "Integrated Zod-validated APIs, CSRF-token handling and recovery from active-assignment changes."
+    ]
+  },
+  "education-demo": {
+    "title": "Education Workspace — Demo",
+    "subtitle": "Bilingual Training-Management Demo",
+    "category": "Demo · Training",
+    "summary": "Built a bilingual training-management demo with validated course planning and browser-local persistence. Implemented learner histories, CSV export and printable records using shared course/enrollment data.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Built a bilingual training-management demo with validated course planning and browser-local persistence.",
+      "Implemented learner histories, CSV export and printable records using shared course/enrollment data."
+    ]
+  },
+  "cancermed": {
+    "title": "Cancermed",
+    "subtitle": "Precision Oncology Platform",
+    "category": "Healthcare · Oncology",
+    "summary": "Contributed to doctor-profile and appointment-booking interfaces for a precision-oncology platform. Implemented the PWA installation flow for access from users’ home screens.",
+    "role": "Front-End Contributor",
+    "highlights": [
+      "Contributed to doctor-profile and appointment-booking interfaces for a precision-oncology platform.",
+      "Implemented the PWA installation flow for access from users’ home screens."
+    ]
+  }
+}

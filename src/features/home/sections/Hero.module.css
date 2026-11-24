@@ -1,0 +1,151 @@
+.hero {
+  display: grid;
+  align-items: center;
+  gap: 3.5rem;
+  padding-block: clamp(3rem, 6vw, 6rem);
+}
+
+.copy {
+  min-width: 0;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5.1vw, 4.5rem);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.055em;
+}
+
+.title > span {
+  display: block;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-block-start: 2rem;
+}
+
+@media (max-width: 480px) {
+  .actions > a {
+    flex: 1;
+    padding-inline: 1rem;
+  }
+}
+
+.title:lang(fa) {
+  font-size: clamp(2.25rem, 4.6vw, 4.2rem);
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.visual {
+  position: relative;
+  isolation: isolate;
+  width: min(100%, 23rem);
+  margin-inline: auto;
+  padding: 0.75rem;
+}
+
+.visual::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 1rem 0 -0.25rem;
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  transform: rotate(6deg);
+}
+
+.portraitFrame {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--surface);
+  transform: rotate(-3deg);
+}
+
+.frameLabel,
+.caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 1rem 1.25rem;
+}
+
+.frameLabel {
+  color: var(--muted);
+  font-size: 0.625rem;
+}
+
+.portrait {
+  display: block;
+  margin-inline: 0.75rem;
+  overflow: hidden;
+  aspect-ratio: 1 / 1.1;
+  border-radius: 0.5rem;
+  background: var(--surface-muted);
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+
+.portraitFallback {
+  display: grid;
+  aspect-ratio: 1;
+  place-items: center;
+  color: var(--accent);
+  font-size: 6rem;
+}
+
+.caption {
+  flex-direction: column;
+  align-items: start;
+  font-size: 0.875rem;
+}
+
+.flower {
+  position: absolute;
+  inset-inline-end: -1.75rem;
+  inset-block-end: -0.75rem;
+  width: 7.5rem;
+  stroke: var(--accent);
+  stroke-width: 1;
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 4rem;
+  }
+  .visual {
+    margin-inline-end: 1.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .copy {
+    animation: appear 0.7s ease-out both;
+  }
+  .visual {
+    animation: appear 0.9s ease-out both;
+  }
+  @keyframes appear {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

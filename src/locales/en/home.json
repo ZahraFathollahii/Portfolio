@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "role": "Front-End Developer",
+    "intro": "Front-End Developer with 3+ years building React, Next.js and TypeScript applications. I turn complex workflows into clear interfaces across healthcare, cybersecurity and e-commerce.",
+    "location": "Tehran, Iran",
+    "workMode": "Open to on-site, hybrid & remote roles",
+    "available": "Available for opportunities",
+    "photoAlt": "Portrait of Zahra Fathollahi",
+    "healthcareBadge": "Enterprise Healthcare Platforms",
+    "healthcareDesc": "Healthcare and telemedicine interfaces, including Iran’s Ministry of Health platform",
+    "craftBadge": "Figma Design to Production",
+    "craftDesc": "Figma UI/UX design, reusable components and responsive RTL/LTR interfaces",
+    "headline": "Complex products.",
+    "headlineAccent": "Clear experiences.",
+    "exploreWork": "Explore my work",
+    "portraitLabel": "THE PERSON BEHIND THE CODE",
+    "designToCode": "From design to working interfaces",
+    "experienceLabel": "Years in front-end",
+    "projectsLabel": "Projects",
+    "stackLabel": "My everyday stack",
+    "commerceBadge": "E-commerce interfaces",
+    "commerceDesc": "Health and wellness e-commerce with a Next.js PWA storefront and React admin panel"
+  },
+  "about": {
+    "title": "About",
+    "p1": "I have worked as a Front-End Developer at Pardazeshgaran Sepehr in Tehran since July 2023, building and maintaining interfaces across 15+ healthcare, pharmacy, insurance and cybersecurity products, including Iran’s Ministry of Health telemedicine platform.",
+    "p2": "My work includes reusable component architectures, state management, real-time data flows and role-based access control. I translate product requirements and Figma designs into responsive interfaces, and design UI/UX and build storefront and admin front ends.",
+    "p3": "I hold a master’s degree in Computer Software Engineering; my thesis evaluated a smart-school agent-based architecture using ATAM and verified system behavior with CSP in PAT."
+  },
+  "skills": {
+    "title": "Skills",
+    "production": "Use in production",
+    "learningTitle": "Familiar with",
+    "groups": {
+      "interfaces": "Interfaces",
+      "data": "State & APIs",
+      "interaction": "Interaction & platforms",
+      "workflow": "Tools & delivery"
+    }
+  },
+  "work": {
+    "title": "Selected work",
+    "moreTitle": "Project archive",
+    "intro": "Selected front-end work across healthcare, cybersecurity and e-commerce.",
+    "moreIntro": "Additional products, internal tools and a browser-based education demo."
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Front-end development across healthcare, cybersecurity, pet-care and e-commerce.",
+    "focusTitle": "Core Engineering Focus",
+    "focusDesc": "Reusable React and TypeScript components, role-based access control, real-time data flows and responsive interfaces.",
+    "present": "Present",
+    "locations": {
+      "tehran": "Tehran"
+    },
+    "sepehr": {
+      "company": "Pardazeshgaran Sepehr",
+      "frontend": {
+        "title": "Front-End Developer",
+        "description": "Built and maintained front ends across 15+ healthcare, pharmacy, insurance and cybersecurity products. Refactored legacy screens into shared component libraries and standardized design patterns, implemented role-based workflows for doctors, patients, pharmacists, SOC analysts, administrators and receptionists, and transformed Figma designs into responsive PWAs."
+      }
+    },
+    "sigma": {
+      "company": "SIGMA Educational Company",
+      "instructor": {
+        "title": "Robotics Instructor",
+        "description": "Taught robotics and programming to students from elementary to high school in group classes and one-on-one sessions. Designed hands-on workshops with Arduino, mBlock, Scratch and basic electronics, and served as a judge at national robotics competitions held at the University of Tehran."
+      }
+    }
+  },
+  "research": {
+    "title": "Research & education",
+    "thesis": {
+      "label": "M.Sc. thesis",
+      "title": "Designing a Pervasive Agent-Based System for the Smart School Environment",
+      "summary": "Designed a pervasive agent-based system for a smart school, evaluated software architecture trade-offs using ATAM, and formally verified system behavior with CSP in PAT."
+    },
+    "degrees": {
+      "msc": {
+        "degree": "M.Sc. Computer Software Engineering",
+        "school": "Islamic Azad University, Science and Research Branch",
+        "year": "Sep 2023 – Sep 2026"
+      },
+      "bsc": {
+        "degree": "B.Sc. Computer Software Engineering",
+        "school": "Islamic Azad University, West Tehran Branch",
+        "year": "Sep 2018 – Feb 2022"
+      },
+      "gpa": "GPA {{value}} / {{scale}}"
+    },
+    "languages": {
+      "title": "Languages",
+      "fa": "Persian",
+      "faLevel": "Native",
+      "en": "English",
+      "enLevel": "Professional working proficiency"
+    },
+    "personal": {
+      "title": "Personal Details",
+      "locationLabel": "Location",
+      "locationValue": "Tehran, Iran",
+      "availabilityLabel": "Status",
+      "availabilityValue": "Available for opportunities",
+      "workModeLabel": "Work Mode",
+      "workModeValue": "On-site, Hybrid & Remote"
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "body": "For front-end roles, project inquiries or a conversation, reach me through any of the channels below.",
+    "emailLabel": "Direct Email",
+    "phoneLabel": "Phone & WhatsApp",
+    "linkedinLabel": "LinkedIn",
+    "projectsLabel": "Code & projects"
+  }
+}

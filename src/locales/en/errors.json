@@ -1,0 +1,9 @@
+{
+  "notFound": {
+    "title": "A little off course.",
+    "body": "This page drifted out of orbit. Let’s get you back to something worth exploring.",
+    "label": "404 · Page not found",
+    "hint": "Lost page. Plenty left to discover.",
+    "pauseAnimation": "Pause animation"
+  }
+}

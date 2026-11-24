@@ -1,0 +1,311 @@
+.page {
+  position: relative;
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+  overflow: clip;
+  isolation: isolate;
+}
+
+/* A static host serves the EN document for every missing URL. */
+:global(html[lang="fa"]) .page[data-locale="en"] .localized {
+  visibility: hidden;
+}
+
+.backdrop {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(
+      ellipse at 50% 34%,
+      color-mix(in oklab, var(--accent) 7%, transparent),
+      transparent 60%
+    ),
+    radial-gradient(var(--dot) 1px, transparent 1px);
+  background-size:
+    auto,
+    28px 28px;
+  mask-image: linear-gradient(transparent, black 16%, black 70%, transparent);
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 1rem 2rem;
+}
+
+.scene {
+  position: relative;
+  width: min(42rem, 100vw);
+  aspect-ratio: 1.7;
+  flex-shrink: 0;
+  container-type: inline-size;
+  pointer-events: none;
+}
+
+.halo {
+  position: absolute;
+  inset: 5% 12%;
+  border-radius: 50%;
+  background: radial-gradient(
+    ellipse,
+    color-mix(in oklab, var(--accent) 14%, transparent),
+    transparent 65%
+  );
+}
+
+.digits {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2cqw;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 34cqw;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.07em;
+}
+
+.four,
+.lastFour {
+  position: relative;
+  z-index: 2;
+  color: transparent;
+  background: linear-gradient(
+    150deg,
+    var(--text) 14%,
+    color-mix(in oklab, var(--text) 60%, var(--muted)) 64%,
+    var(--muted)
+  );
+  background-clip: text;
+  animation: drift 7s ease-in-out infinite;
+}
+
+.lastFour {
+  animation-delay: -3.5s;
+}
+
+.portal {
+  position: relative;
+  width: 24cqw;
+  height: 31cqw;
+  margin-inline: 1cqw;
+  border-radius: 50%;
+  transform: rotate(-15deg);
+  box-shadow:
+    0 0 4cqw color-mix(in oklab, var(--accent) 20%, transparent),
+    0 0 10cqw color-mix(in oklab, var(--accent) 10%, transparent);
+}
+
+.portalRim {
+  position: absolute;
+  inset: -1.5%;
+  overflow: hidden;
+  border-radius: inherit;
+  background: color-mix(in oklab, var(--accent) 45%, transparent);
+  box-shadow:
+    0 0 2cqw color-mix(in oklab, var(--accent) 40%, transparent),
+    inset 0 0 1cqw var(--accent);
+}
+
+.portalRim::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 5%,
+    var(--accent) 20%,
+    var(--text) 26%,
+    transparent 32%,
+    transparent 57%,
+    var(--accent) 72%,
+    var(--text) 77%,
+    transparent 84%
+  );
+  animation: spin 8s linear infinite;
+}
+
+.portalCore {
+  position: absolute;
+  inset: 3.5%;
+  overflow: hidden;
+  border: 1px solid color-mix(in oklab, var(--accent) 65%, transparent);
+  border-radius: inherit;
+  background: radial-gradient(
+    ellipse at 50% 70%,
+    color-mix(in oklab, var(--accent) 15%, var(--bg)),
+    var(--bg) 68%
+  );
+  box-shadow: inset 0 0 3cqw color-mix(in oklab, var(--accent) 25%, transparent);
+}
+
+.portalCore::after {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background: repeating-conic-gradient(
+    from 20deg,
+    transparent 0deg 28deg,
+    color-mix(in oklab, var(--accent) 22%, transparent) 29deg 30deg
+  );
+  mask-image: radial-gradient(
+    ellipse,
+    transparent 28%,
+    black 58%,
+    transparent 68%
+  );
+  animation: spin 30s linear infinite reverse;
+}
+
+.portalInner {
+  position: absolute;
+  inset: 15%;
+  border: 1px solid color-mix(in oklab, var(--accent) 35%, transparent);
+  border-radius: inherit;
+  box-shadow: 0 0 1cqw color-mix(in oklab, var(--accent) 15%, transparent);
+  animation: breathe 5s ease-in-out infinite;
+}
+
+.orbit,
+.outerOrbit {
+  position: absolute;
+  z-index: 3;
+  inset: 20% 4%;
+  border: 1px solid color-mix(in oklab, var(--accent) 22%, transparent);
+  border-radius: 50%;
+  transform: rotate(-24deg);
+}
+
+.outerOrbit {
+  z-index: 0;
+  inset: 8% 17%;
+  border-style: dashed;
+  border-color: color-mix(in oklab, var(--muted) 18%, transparent);
+  transform: rotate(32deg);
+}
+
+.orbit > span,
+.outerOrbit > span {
+  position: absolute;
+  width: 0.9cqw;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 1.7cqw var(--accent);
+  offset-path: ellipse(50% 50% at 50% 50%);
+  offset-rotate: 0deg;
+  animation: orbit 18s linear infinite;
+}
+
+.outerOrbit > span {
+  animation-duration: 26s;
+  animation-direction: reverse;
+}
+
+.outerOrbit > span {
+  background: var(--muted);
+  box-shadow: none;
+}
+
+.spark {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px color-mix(in oklab, var(--accent) 45%, transparent);
+  animation: float 6s ease-in-out infinite;
+}
+
+.spark:nth-last-child(1) {
+  inset: 16% auto auto 22%;
+  animation-delay: -1s;
+}
+.spark:nth-last-child(2) {
+  inset: 70% auto auto 16%;
+  animation-delay: -4s;
+}
+.spark:nth-last-child(3) {
+  inset: 22% 19% auto auto;
+  animation-delay: -2s;
+}
+.spark:nth-last-child(4) {
+  inset: 80% 30% auto auto;
+  animation-delay: -5s;
+}
+.spark:nth-last-child(5) {
+  inset: 10% 40% auto auto;
+  animation-delay: -3s;
+}
+.spark:nth-last-child(6) {
+  inset: 66% 8% auto auto;
+  animation-delay: -0.5s;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbit {
+  to {
+    offset-distance: 100%;
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(-1cqw) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(1cqw) rotate(1deg);
+  }
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scale(0.93);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translateY(-2cqw);
+    opacity: 1;
+  }
+}
+
+.scene[data-paused="true"] *,
+.scene[data-paused="true"] *::before,
+.scene[data-paused="true"] *::after {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene *,
+  .scene *::before,
+  .scene *::after {
+    animation: none !important;
+  }
+}

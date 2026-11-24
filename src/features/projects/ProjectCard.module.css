@@ -1,0 +1,144 @@
+.cover {
+  --cover-bg: #374538;
+  --cover-ink: #d8e3bb;
+  position: relative;
+  min-height: 12rem;
+  overflow: hidden;
+  aspect-ratio: 2.55;
+  background: var(--cover-bg);
+  border-start-start-radius: calc(var(--radius-card) - 1px);
+  border-start-end-radius: calc(var(--radius-card) - 1px);
+  color: var(--cover-ink);
+  isolation: isolate;
+}
+
+.cover[data-project="ganotic"] {
+  --cover-bg: #443b2b;
+  --cover-ink: #ead8af;
+}
+.cover[data-project="mssp"] {
+  --cover-bg: #263844;
+  --cover-ink: #bcd3e0;
+}
+.cover[data-project="picopet"] {
+  --cover-bg: #503e44;
+  --cover-ink: #ead5d9;
+}
+.cover[data-project="salam-operator"] {
+  --cover-bg: #2b4543;
+  --cover-ink: #cae5dd;
+}
+.cover[data-project="cancermed"] {
+  --cover-bg: #42394d;
+  --cover-ink: #ddd1ec;
+}
+
+.initial {
+  position: absolute;
+  inset-inline-start: 1.25rem;
+  inset-block-start: -3.75rem;
+  color: var(--cover-ink);
+  opacity: 0.055;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 18rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.1em;
+}
+
+.identifier {
+  position: absolute;
+  inset-block-start: 1.5rem;
+  inset-inline-start: 1.75rem;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.625rem;
+  letter-spacing: 0.15em;
+}
+
+.coverName {
+  position: absolute;
+  inset-block-end: 1.75rem;
+  inset-inline-start: 1.75rem;
+  max-width: 70%;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.coverRule {
+  position: absolute;
+  inset-block-end: 1.5rem;
+  inset-inline-end: 1.75rem;
+  width: 2.75rem;
+  border-block-end: 1px solid currentColor;
+}
+
+.symbol {
+  position: absolute;
+  inset-inline-end: 8%;
+  inset-block-start: 8%;
+  display: grid;
+  width: 9rem;
+  aspect-ratio: 1;
+  place-items: center;
+}
+
+.symbol > svg {
+  width: 3.75rem;
+  height: 3.75rem;
+  stroke-width: 1;
+}
+
+.ring,
+.innerRing {
+  position: absolute;
+  inset: 0;
+  border: 1px solid color-mix(in oklab, var(--cover-ink) 30%, transparent);
+  border-radius: 50%;
+  transform: rotate(-25deg);
+  transition: transform 0.6s ease;
+}
+
+.innerRing {
+  inset: 0.75rem;
+  border-style: dashed;
+  opacity: 0.6;
+}
+.cover[data-project="mssp"] .ring {
+  border-radius: 25%;
+  transform: rotate(15deg);
+}
+.cover[data-project="ganotic"] .ring {
+  border-radius: 45% 20% 45% 20%;
+}
+.cover[data-project="picopet"] .ring {
+  border-radius: 30% 50% 30% 50%;
+}
+.cover[data-project="cancermed"] .ring {
+  border-radius: 30%;
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :global(.group):hover .ring {
+    transform: rotate(15deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .symbol {
+    width: 7rem;
+    inset-inline-end: 5%;
+  }
+  .symbol > svg {
+    width: 3rem;
+    height: 3rem;
+  }
+  .identifier {
+    inset-inline-start: 1.5rem;
+  }
+  .coverName {
+    inset-inline-start: 1.5rem;
+    font-size: 1.625rem;
+  }
+}

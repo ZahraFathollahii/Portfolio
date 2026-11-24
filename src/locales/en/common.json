@@ -1,0 +1,37 @@
+{
+  "site": {
+    "name": "Zahra Fathollahi",
+    "title": "Zahra Fathollahi — Front-End Developer",
+    "description": "Front-End Developer in Tehran with 3+ years of experience building React, Next.js and TypeScript applications across healthcare, cybersecurity, pet-care and e-commerce."
+  },
+  "language": {
+    "name": "English"
+  },
+  "locale": {
+    "switchTo": "فارسی",
+    "switchLabel": "Read this page in Persian"
+  },
+  "nav": {
+    "sectionsLabel": "Page sections",
+    "about": "About",
+    "work": "Work",
+    "experience": "Experience",
+    "research": "Research",
+    "contact": "Contact"
+  },
+  "skipLink": "Skip to main content",
+  "menu": {
+    "title": "Menu"
+  },
+  "social": {
+    "label": "Social links",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "footer": {
+    "copyright": "© {{year}} Zahra Fathollahi",
+    "built": "Built with Next.js & Tailwind CSS"
+  }
+}

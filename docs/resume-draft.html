@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zahra Fathollahi - Frontend Developer Resume</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family:
+          Inter,
+          -apple-system,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+        font-size: 9.6pt;
+        line-height: 1.38;
+        color: #1f2937;
+        background: #e5e7eb;
+      }
+      .page {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 10mm auto;
+        padding: 13mm 15mm;
+        background: #fff;
+      }
+      h1 {
+        font-size: 24pt;
+        color: #111827;
+        letter-spacing: -0.5px;
+      }
+      .title {
+        color: #2f4b9a;
+        font-size: 11.5pt;
+        margin: 2px 0 9px;
+      }
+      .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3px 24px;
+        font-size: 9pt;
+        margin-bottom: 4px;
+      }
+      .contact b {
+        display: inline-block;
+        width: 62px;
+        color: #111827;
+      }
+      h2 {
+        font-size: 8.8pt;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        color: #111827;
+        border-bottom: 1px solid #cbd0d8;
+        padding-bottom: 3px;
+        margin: 13px 0 7px;
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 10px;
+      }
+      .row b {
+        font-size: 10.5pt;
+        color: #111827;
+      }
+      .date {
+        white-space: nowrap;
+        font-size: 9.2pt;
+        color: #374151;
+      }
+      .sub {
+        color: #4b5563;
+        font-size: 9pt;
+        margin-bottom: 2px;
+      }
+      .sub a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+      ul {
+        margin: 2px 0 4px 15px;
+      }
+      li {
+        margin-bottom: 1.5px;
+      }
+      li::marker {
+        color: #2563eb;
+      }
+      .item {
+        margin-bottom: 8px;
+        break-inside: avoid;
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-top: 3px;
+      }
+      .tags span {
+        font-size: 7.8pt;
+        font-weight: 600;
+        padding: 1px 7px;
+        border: 1px solid #d1d5db;
+        border-radius: 4px;
+        background: #f9fafb;
+        color: #111827;
+      }
+      .skills {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap: 3px 6px;
+        font-size: 9.2pt;
+      }
+      .skills b {
+        color: #111827;
+      }
+      @media print {
+        body {
+          background: #fff;
+        }
+        .page {
+          margin: 0;
+          box-shadow: none;
+        }
+        .page + .page {
+          break-before: page;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- PAGE 1 -->
+    <div class="page">
+      <h1>Zahra Fathollahi</h1>
+      <div class="title">
+        Front-End Developer — React · TypeScript · Next.js
+      </div>
+
+      <div class="contact">
+        <div><b>Email:</b> zahrafathollaahi@gmail.com</div>
+        <div><b>LinkedIn:</b> linkedin.com/in/zahra-fathollahi</div>
+        <div><b>GitHub:</b> github.com/ZahraFathollahii</div>
+        <div><b>Portfolio:</b> zahrafathollahi.ir</div>
+        <div><b>Phone:</b> (+98) 990 572 4725</div>
+        <div><b>Location:</b> Tehran, Iran</div>
+      </div>
+
+      <h2>Profile Summary</h2>
+      <p>
+        Front-End Developer with 3+ years of experience building scalable web
+        applications and installable PWAs with React.js, Next.js, and TypeScript
+        across healthcare, cybersecurity, pet-care, and e-commerce, including
+        Iran's Ministry of Health telemedicine platform. Also experienced in
+        designing UI/UX in Figma and turning complex requirements into clean,
+        maintainable, component-based interfaces.
+      </p>
+
+      <h2>Work Experience</h2>
+      <div class="item">
+        <div class="row">
+          <b>Front-End Developer</b
+          ><span class="date">July 2023 – Present</span>
+        </div>
+        <div class="sub">
+          Pardazeshgaran Sepehr (Sepehr Company) · Tehran, Iran
+        </div>
+        <ul>
+          <li>
+            Engineered scalable front-end solutions for production healthcare
+            and cybersecurity platforms.
+          </li>
+          <li>
+            Refactored legacy screens across multiple mid-development platforms
+            into reusable shared component libraries and standardized design
+            patterns that accelerated feature delivery.
+          </li>
+          <li>
+            Designed UI/UX interfaces in Figma for new products such as MSSP and
+            transformed wireframes into fully responsive PWAs.
+          </li>
+          <li>
+            Implemented role-based access control supporting distinct workflows
+            for roles such as doctors, patients, pharmacists, receptionists,
+            administrators, and SOC analysts.
+          </li>
+        </ul>
+      </div>
+      <div class="item">
+        <div class="row">
+          <b>Robotics Instructor</b
+          ><span class="date">July 2021 – June 2023</span>
+        </div>
+        <div class="sub">SIGMA Educational Company · Tehran, Iran</div>
+        <ul>
+          <li>
+            Taught robotics and programming (Arduino, Scratch, mBlock) to
+            students from elementary to high school in group and one-on-one
+            formats, and served as a judge at national robotics competitions at
+            the University of Tehran.
+          </li>
+        </ul>
+      </div>
+
+      <h2>Projects</h2>
+
+      <div class="item">
+        <div class="row">
+          <b>PicoPet — Veterinary Healthcare Platform</b
+          ><span class="date">January 2026</span>
+        </div>
+        <div class="sub">
+          Sepehr Company · <a href="https://picopet.ir">picopet.ir</a>
+        </div>
+        <ul>
+          <li>
+            Developed the front-end of a bilingual (Persian/English) pet
+            healthcare platform connecting pet owners with veterinarians for
+            online appointment scheduling, digital prescriptions, and
+            vaccination tracking.
+          </li>
+          <li>
+            Shipped feature modules for clinic and doctor discovery, visit
+            history management, invoice processing, and role-based dashboards
+            for pet owners, doctors, and clinic administrators using React Hook
+            Form and Zod.
+          </li>
+          <li>
+            Delivered full RTL/Persian internationalization via i18next
+            alongside an LTR English interface.
+          </li>
+        </ul>
+        <div class="tags">
+          <span>React.js</span><span>TypeScript</span><span>Redux Toolkit</span
+          ><span>TanStack Query</span><span>React Hook Form</span
+          ><span>Zod</span><span>Tailwind CSS</span><span>i18next</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="row">
+          <b>MSSP — Managed Security Services Platform</b
+          ><span class="date">December 2025</span>
+        </div>
+        <div class="sub">
+          Sepehr Company · <a href="https://mssp.inhso.ir">mssp.inhso.ir</a>
+        </div>
+        <ul>
+          <li>
+            Designed the UI/UX in Figma and developed the front-end of an
+            installable cybersecurity PWA with dedicated workspaces for
+            administrators, customer organizations, and SOC analysts.
+          </li>
+          <li>
+            Built interactive data-visualization dashboards for incident
+            details, threat categories, SLA monitoring, and vulnerability trend
+            reporting using Recharts and Framer Motion.
+          </li>
+          <li>
+            Validated and normalized contract responses across legacy and modern
+            data structures with scoped TanStack Query keys, and wrote automated
+            unit tests with Vitest covering APIs and authentication.
+          </li>
+        </ul>
+        <div class="tags">
+          <span>React.js</span><span>TypeScript</span><span>TanStack Query</span
+          ><span>Tailwind CSS</span><span>Recharts</span
+          ><span>Framer Motion</span><span>Vitest</span><span>PWA</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="page">
+      <div class="item">
+        <div class="row">
+          <b>Salam Operator — Ministry of Health National Platform</b
+          ><span class="date">April 2025</span>
+        </div>
+        <div class="sub">
+          Sepehr Company · <a href="https://inhso.ir">inhso.ir</a>
+        </div>
+        <ul>
+          <li>
+            Developed core front-end modules for one of Iran's three official
+            national health operator platforms under the Ministry of Health.
+          </li>
+          <li>
+            Built telemedicine, Jalali-calendar appointment, and patient-record
+            screens featuring infinite-scroll specialist directories, text
+            consultations with attachments, and live video/voice meeting links.
+          </li>
+          <li>
+            Built a payment-result page that confirms transactions through
+            backend verification, and implemented real-time browser
+            notifications using SSE and Service Workers.
+          </li>
+        </ul>
+        <div class="tags">
+          <span>React.js</span><span>TypeScript</span><span>Redux Toolkit</span
+          ><span>TanStack Query</span><span>Tailwind CSS</span><span>SSE</span
+          ><span>Service Workers</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="row">
+          <b>Sepehr Online Pharmacy System</b
+          ><span class="date">July 2024</span>
+        </div>
+        <div class="sub">
+          Sepehr Company ·
+          <a href="https://pharmacy.isikato.ir">pharmacy.isikato.ir</a>
+        </div>
+        <ul>
+          <li>
+            Redesigned pharmacist and administrative panels and refactored
+            legacy screens into reusable shared components across multiple
+            active pharmacy branches.
+          </li>
+          <li>
+            Engineered modules for drug inventory tracking, IRC drug-code
+            lookup, expired medication alerts, prescription-dispensing screens
+            and insurance forms for multiple insurers, and an online storefront
+            for patient orders.
+          </li>
+          <li>
+            Implemented WebSocket-based (Socket.IO) real-time delivery of
+            incoming patient prescription orders, so pharmacists receive and
+            process new orders without page refreshes.
+          </li>
+        </ul>
+        <div class="tags">
+          <span>React.js</span><span>JavaScript</span><span>Redux Toolkit</span
+          ><span>TanStack Query</span><span>Socket.IO</span
+          ><span>Tailwind CSS</span><span>Ant Design</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="row">
+          <b
+            >Sepehr Salamat (INHS) — Medical Center &amp; Cancer Pathway
+            System</b
+          ><span class="date">November 2023</span>
+        </div>
+        <div class="sub">
+          Sepehr Company · <a href="https://inhs.isikato.ir">inhs.isikato.ir</a>
+        </div>
+        <ul>
+          <li>
+            Redesigned and engineered user panels for doctors, receptionists,
+            and patients covering electronic prescribing forms, inquiry results,
+            service selection, appointment scheduling, and patient-record
+            screens.
+          </li>
+          <li>
+            Built interactive cancer treatment-pathway screens with React Flow,
+            sending version numbers with each save, handling version-conflict
+            responses, retrying with the original request ID, and warning users
+            about unsaved changes.
+          </li>
+        </ul>
+        <div class="tags">
+          <span>React.js</span><span>TypeScript</span><span>JavaScript</span
+          ><span>Redux Toolkit</span><span>TanStack Query</span
+          ><span>React Flow</span><span>Ant Design</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="row">
+          <b>Ganotic — Health &amp; Wellness E-Commerce Platform</b
+          ><span class="date">October 2026</span>
+        </div>
+        <div class="sub">
+          Product Designer &amp; Front-End Developer ·
+          <a href="https://ganotic.ir">ganotic.ir</a>
+        </div>
+        <ul>
+          <li>
+            Designed the design system in Figma and built the front-end of both
+            applications: an installable Next.js PWA storefront (Persian RTL,
+            SEO-focused) and a React admin panel with order management, catalog
+            filters, and payment gateway integration.
+          </li>
+        </ul>
+        <div class="tags">
+          <span>Next.js</span><span>React.js</span><span>TypeScript</span
+          ><span>Tailwind CSS</span><span>PWA</span><span>Figma</span>
+        </div>
+      </div>
+
+      <p style="margin-bottom: 2px">
+        <b>More projects:</b>
+        <a
+          href="https://zahrafathollahi.ir"
+          style="color: #2563eb; text-decoration: none"
+          >zahrafathollahi.ir</a
+        >
+      </p>
+
+      <h2>Education</h2>
+      <div class="item">
+        <div class="row">
+          <b>Master's Degree, Computer Software Engineering</b
+          ><span class="date">Sep 2023 – Sep 2026</span>
+        </div>
+        <div class="sub">
+          Islamic Azad University, Science and Research Branch, Tehran, Iran ·
+          <b>Grade: 18.79 / 20</b>
+        </div>
+        <ul>
+          <li>
+            <b>Thesis:</b> "Designing a Pervasive Agent-Based System for the
+            Smart School Environment" — evaluated software architecture
+            trade-offs using ATAM and formally verified system behavior with CSP
+            (PAT).
+          </li>
+        </ul>
+      </div>
+      <div class="item">
+        <div class="row">
+          <b>Bachelor's Degree, Computer Software Engineering</b
+          ><span class="date">Sep 2018 – Feb 2022</span>
+        </div>
+        <div class="sub">
+          Islamic Azad University, West Tehran Branch, Tehran, Iran ·
+          <b>Grade: 17.91 / 20</b>
+        </div>
+      </div>
+
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <b>Core Technologies:</b
+        ><span
+          >React.js, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3</span
+        >
+        <b>State &amp; Forms:</b
+        ><span
+          >Redux Toolkit, Zustand, TanStack Query, React Hook Form, Zod</span
+        >
+        <b>APIs &amp; Real-Time:</b
+        ><span
+          >RESTful APIs, WebSockets (Socket.IO), Server-Sent Events (SSE),
+          Service Workers</span
+        >
+        <b>Styling &amp; UI Libraries:</b
+        ><span
+          >Tailwind CSS, Ant Design, Framer Motion, React Flow, Recharts,
+          Highcharts, Leaflet</span
+        >
+        <b>Testing &amp; Platforms:</b
+        ><span
+          >Vitest, Cypress, Progressive Web Apps (PWA), i18next (RTL/LTR),
+          Vite</span
+        >
+        <b>Tools &amp; Design:</b
+        ><span>Git, GitLab, GitHub Actions, Figma, Chrome DevTools</span>
+      </div>
+
+      <h2>Languages</h2>
+      <p>
+        <b>Persian</b> — Native &nbsp;·&nbsp; <b>English</b> — Professional
+        Working Proficiency
+      </p>
+    </div>
+  </body>
+</html>

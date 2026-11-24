@@ -1,0 +1,57 @@
+# Zahra Fathollahi — Front-End Developer
+
+## Profile
+- 3+ years of experience building web applications and installable PWAs with React, Next.js and TypeScript.
+- Domains: healthcare, cybersecurity, pet-care and e-commerce.
+- Location: Tehran, Iran.
+- Portfolio: https://zahrafathollahi.ir
+- English: https://zahrafathollahi.ir/en/
+- Persian: https://zahrafathollahi.ir/fa/
+- Resume: https://zahrafathollahi.ir/resume/zahra-fathollahi-en.pdf
+- GitHub: https://github.com/ZahraFathollahii
+- LinkedIn: https://www.linkedin.com/in/zahra-fathollahi
+
+## Experience
+- Front-End Developer, Pardazeshgaran Sepehr, July 2023–present: built and maintained front ends across 15+ healthcare, pharmacy, insurance and cybersecurity products; reusable components, role-based workflows and responsive PWAs.
+- Robotics Instructor, SIGMA Educational Company, July 2021–June 2023: Arduino, Scratch and mBlock teaching; judged national robotics competitions at the University of Tehran.
+
+## Technical Skills
+- React, Next.js, TypeScript, JavaScript, HTML5, CSS3, RESTful APIs, Axios, i18next and RTL/LTR.
+- Redux Toolkit, TanStack Query, React Hook Form and Zod.
+- Tailwind CSS, Ant Design, Framer Motion, React Flow, Recharts, Highcharts and Leaflet.
+- PWA, Service Workers, Socket.IO and Server-Sent Events (SSE).
+- Testing: Vitest. Familiar with React Testing Library and Cypress.
+- Git, GitLab, GitHub Actions, Vite, Figma and Chrome DevTools. Familiar with Zustand.
+
+## Projects
+- Ganotic: https://ganotic.ir — health and wellness e-commerce; Next.js PWA storefront with Persian RTL, React admin panel, order management, catalog filtering, payment integration and a Figma design system.
+- MSSP: https://mssp.inhso.ir — managed security services; administrator, customer and SOC workspaces, security dashboards, TanStack Query API caching and pagination, and Vitest tests for API services and authentication.
+- PicoPet: https://picopet.ir — veterinary care; appointments, pet medical records, role-based interfaces, Persian/English localization and TanStack Query caching.
+- Salam: https://inhso.ir/ — Ministry of Health national platform; Jalali booking, filterable specialist directories with infinite loading and map discovery, patient records and medical charts, text consultations, meeting/payment APIs and SSE browser alerts through Service Workers.
+- Sepehr Pharmacy: https://pharmacy.isikato.ir/drgharaee — pharmacy management and e-commerce; product and prescription checkout, inventory tools, real-time updates and PWA installation/update flows.
+- Sepehr Salamat (INHS): https://inhs.isikato.ir — medical center and cancer pathway system; multi-insurer e-prescriptions, appointments, patient records and interactive React Flow treatment pathways.
+- Payesh: https://payesh.inhso.ir/login — occupational health monitoring platform.
+
+## Education
+- M.Sc. Computer Software Engineering, Islamic Azad University, Science and Research Branch, September 2023–September 2026; grade 18.79/20.
+- Thesis: Designing a Pervasive Agent-Based System for the Smart School Environment; architecture evaluation with ATAM and formal verification with CSP in PAT.
+- B.Sc. Computer Software Engineering, Islamic Azad University, West Tehran Branch, September 2018–February 2022; grade 17.91/20.
+- Persian: native. English: professional working proficiency.
+
+## Additional Frontend Projects
+- Cancermed: https://cancermed.inhso.ir/ — precision oncology; contributions to doctor-profile and appointment-booking interfaces, and the PWA installation flow.
+- 4040: Integrated SSO callbacks and guarded patient routes with validated post-login destinations. Developed paginated prescription history and medical charts with typed API integration.
+- Salam Admin: Implemented provider verification, role-upgrade and account-restriction interfaces. Developed support-ticket conversations and application-log inspection with typed API integration.
+- Consultation Admin: Developed filtered, paginated views for consultation orders, cancellations and meeting-link failures. Integrated meeting-link retry actions with cache invalidation and provider-category management.
+- Document Management: Implemented versioned document/media uploads, categorized search and per-user access-management interfaces. Integrated attachment handling and ZIP downloads through document-management APIs.
+- Hub Panel: Developed role-specific workspaces for service catalogs, client assignments and service requests. Integrated API-driven operational charts, reports and downloadable service documentation.
+- Laboratory Management: Implemented electronic and paper prescription workflows across insurance providers. Developed laboratory-result upload, review and patient-facing retrieval interfaces.
+- Paraclinic Management: https://paraclinic.isikato.ir/home — Developed multi-insurer prescription inquiry, service selection and submission workflows. Integrated insurance-specific service search, attachment uploads and cached API queries.
+- Pharmacy Aggregator: https://pharmacy.isikato.ir/ — Implemented prescription reservation and order-tracking workflows across patient, operator and pharmacy-supervisor panels. Developed pharmacy discovery with maps, paginated loading and normalized API responses.
+- Specialized Pharmacy Aggregator: Implemented specialized prescription submission and pharmacy-reservation interfaces with role-specific panels. Integrated operator/supervisor management and cache invalidation after prescription mutations.
+- Pardazeshgaran Sepehr Website: https://picsepehr.com/ — Developed article-publishing interfaces with rich-text editing and media uploads. Implemented localized route metadata and responsive product, article and company-information pages.
+- Registration Portal: https://mokamel.isikato.ir/ — Implemented applicant profiles, family-information forms and supporting-document submission workflows. Developed administrator monitoring with chart drill-downs, filtered user lists and account controls.
+- Training Management: Developed course, training-run and contract-management interfaces within organization-specific workspaces. Integrated Zod-validated APIs, CSRF-token handling and recovery from active-assignment changes.
+- Education Workspace — Demo: Built a bilingual training-management demo with validated course planning and browser-local persistence. Implemented learner histories, CSV export and printable records using shared course/enrollment data.
+
+These descriptions concern frontend contributions. Supplied backend repositories are not claimed as backend development work. The Education Workspace is a browser-local demo.
