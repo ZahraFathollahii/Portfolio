@@ -307,17 +307,6 @@
       "Integrated Zod-validated APIs, CSRF-token handling and recovery from active-assignment changes."
     ]
   },
-  "education-demo": {
-    "title": "Education Workspace — Demo",
-    "subtitle": "Bilingual Training-Management Demo",
-    "category": "Demo · Training",
-    "summary": "Built a bilingual training-management demo with validated course planning and browser-local persistence. Implemented learner histories, CSV export and printable records using shared course/enrollment data.",
-    "role": "Front-End Contributor",
-    "highlights": [
-      "Built a bilingual training-management demo with validated course planning and browser-local persistence.",
-      "Implemented learner histories, CSV export and printable records using shared course/enrollment data."
-    ]
-  },
   "cancermed": {
     "title": "Cancermed",
     "subtitle": "Precision Oncology Platform",

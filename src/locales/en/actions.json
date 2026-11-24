@@ -18,5 +18,7 @@
   "previousProject": "Previous project",
   "nextProject": "Next project",
   "allProjects": "All projects",
-  "backTop": "Back to top"
+  "backTop": "Back to top",
+  "showMoreProjects": "Show {{count}} more projects",
+  "showFewerProjects": "Show fewer projects"
 }

@@ -102,15 +102,15 @@ describe("ProjectCard", () => {
     expect(card).not.toHaveTextContent("NestJS");
   });
 
-  it("identifies the education workspace as a demo and translates its contributions", async () => {
-    const card = await renderCard("education-demo", "fa");
+  it("renders Persian non-featured project cards without a live link when no public URL is confirmed", async () => {
+    const card = await renderCard("training-management", "fa");
 
-    expect(within(card).getByText("دمو · آموزش")).toBeInTheDocument();
+    expect(within(card).getByText("آموزش سازمانی")).toBeInTheDocument();
     const contributions = within(card).getByRole("list", {
       name: "مشارکت‌های فنی",
     });
     expect(within(contributions).getAllByRole("listitem")).toHaveLength(2);
-    expect(contributions).toHaveTextContent("ذخیره‌سازی محلی در مرورگر");
+    expect(contributions).toHaveTextContent("اعتبارسنجی Zod");
     expect(within(card).queryAllByRole("link")).toHaveLength(0);
   });
 });

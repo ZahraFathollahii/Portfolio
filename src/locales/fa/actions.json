@@ -18,5 +18,7 @@
   "previousProject": "پروژه‌ی قبلی",
   "nextProject": "پروژه‌ی بعدی",
   "allProjects": "همه‌ی پروژه‌ها",
-  "backTop": "بازگشت به بالای صفحه"
+  "backTop": "بازگشت به بالای صفحه",
+  "showMoreProjects": "مشاهده‌ی {{count}} پروژه‌ی دیگر",
+  "showFewerProjects": "بستن لیست پروژه‌ها"
 }

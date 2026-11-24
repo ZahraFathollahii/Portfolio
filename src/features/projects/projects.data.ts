@@ -311,21 +311,6 @@ const allProjects = [
     featured: false,
     hasCaseStudy: false,
   },
-  {
-    slug: "education-demo",
-    url: null,
-    techs: [
-      "React",
-      "TypeScript",
-      "TanStack Query",
-      "Tailwind CSS",
-      "i18next",
-      "Vite",
-    ],
-    statusKey: null,
-    featured: false,
-    hasCaseStudy: false,
-  },
 ] as const satisfies readonly Project[];
 
 export type ProjectSlug = (typeof allProjects)[number]["slug"];

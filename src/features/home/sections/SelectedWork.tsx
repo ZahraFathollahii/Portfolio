@@ -1,8 +1,10 @@
 import { Heading, Section } from "@/components/ui";
+import { MoreProjectsToggle } from "@/features/projects/MoreProjectsToggle";
 import { ProjectCard } from "@/features/projects/ProjectCard";
 import { projects } from "@/features/projects/projects.data";
 import { getT } from "@/i18n/getT";
 import type { Locale } from "@/i18n/settings";
+import { formatNumber } from "@/lib/format";
 
 type SelectedWorkProps = {
   locale: Locale;
@@ -10,6 +12,7 @@ type SelectedWorkProps = {
 
 export async function SelectedWork({ locale }: SelectedWorkProps) {
   const t = await getT(locale, "home");
+  const tActions = await getT(locale, "actions");
   const featured = projects.filter((project) => project.featured);
   const more = projects.filter((project) => !project.featured);
 
@@ -26,15 +29,22 @@ export async function SelectedWork({ locale }: SelectedWorkProps) {
             <Heading level={3}>{t("work.moreTitle")}</Heading>
             <p className="max-w-lg text-sm text-muted">{t("work.moreIntro")}</p>
           </div>
-          <ul className="mt-7 grid gap-4 md:grid-cols-2">
-            {more.map((project) => (
-              <ProjectCard
-                key={project.slug}
-                project={project}
-                locale={locale}
-              />
-            ))}
-          </ul>
+          <MoreProjectsToggle
+            showMoreLabel={tActions("showMoreProjects", {
+              count: formatNumber(more.length, locale),
+            })}
+            showFewerLabel={tActions("showFewerProjects")}
+          >
+            <ul className="mt-7 grid gap-4 md:grid-cols-2">
+              {more.map((project) => (
+                <ProjectCard
+                  key={project.slug}
+                  project={project}
+                  locale={locale}
+                />
+              ))}
+            </ul>
+          </MoreProjectsToggle>
         </>
       )}
     </Section>
