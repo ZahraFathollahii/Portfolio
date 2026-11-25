@@ -65,10 +65,8 @@ export const skillGroups = [
     labelKey: "skills.groups.workflow",
     items: [
       { name: "Vite", icon: SiVite },
-      { name: "Webpack" },
       { name: "Git/GitLab", icon: SiGit },
       { name: "GitHub Actions", icon: SiGit },
-      { name: "Docker" },
       { name: "Vitest" },
       { name: "Jest" },
       { name: "Figma", icon: SiFigma },
