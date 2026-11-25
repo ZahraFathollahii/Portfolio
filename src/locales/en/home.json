@@ -24,7 +24,7 @@
   "about": {
     "title": "About",
     "p1": "I have worked as a Front-End Developer at Pardazeshgaran Sepehr in Tehran since July 2023, building and maintaining interfaces across 15+ healthcare, pharmacy, insurance and cybersecurity products, including Iran’s Ministry of Health telemedicine platform.",
-    "p2": "My work includes reusable component architectures, state management, real-time data flows and role-based access control. I translate product requirements and Figma designs into responsive interfaces, and design UI/UX and build storefront and admin front ends.",
+    "p2": "My work centers on modular front-end architecture applying SOLID design principles, Clean Code practices, reusable design systems, web performance optimization and role-based access control within Agile (Scrum/Kanban) workflows. I translate product requirements and Figma designs into responsive interfaces, and design UI/UX and build storefront and admin front ends.",
     "p3": "I hold a master’s degree in Computer Software Engineering; my thesis evaluated a smart-school agent-based architecture using ATAM and verified system behavior with CSP in PAT."
   },
   "skills": {
@@ -56,7 +56,7 @@
       "company": "Pardazeshgaran Sepehr",
       "frontend": {
         "title": "Front-End Developer",
-        "description": "Built and maintained front ends across 15+ healthcare, pharmacy, insurance and cybersecurity products. Refactored legacy screens into shared component libraries and standardized design patterns, implemented role-based workflows for doctors, patients, pharmacists, SOC analysts, administrators and receptionists, and transformed Figma designs into responsive PWAs."
+        "description": "Built and maintained front ends across 15+ healthcare, pharmacy, insurance and cybersecurity products applying SOLID design principles and Clean Code practices in Agile (Scrum/Kanban) workflows. Refactored legacy screens into shared component libraries and standardized design patterns, implemented role-based workflows for doctors, patients, pharmacists, SOC analysts, administrators and receptionists, and transformed Figma designs into responsive PWAs."
       }
     },
     "sigma": {

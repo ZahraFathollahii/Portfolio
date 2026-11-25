@@ -65,11 +65,19 @@ export const skillGroups = [
     labelKey: "skills.groups.workflow",
     items: [
       { name: "Vite", icon: SiVite },
+      { name: "Webpack" },
       { name: "Git/GitLab", icon: SiGit },
-      { name: "Figma", icon: SiFigma },
-      { name: "Vitest" },
       { name: "GitHub Actions", icon: SiGit },
+      { name: "Docker" },
+      { name: "Vitest" },
+      { name: "Jest" },
+      { name: "Figma", icon: SiFigma },
       { name: "Chrome DevTools" },
+      { name: "SOLID Design Principles" },
+      { name: "Clean Code" },
+      { name: "Front-End Architecture" },
+      { name: "Web Performance" },
+      { name: "Agile (Scrum/Kanban)" },
     ],
   },
 ] as const satisfies readonly {
@@ -81,4 +89,6 @@ export const familiarSkills = [
   { name: "Zustand" },
   { name: "React Testing Library", icon: SiTestinglibrary },
   { name: "Cypress" },
+  { name: "Material UI" },
+  { name: "Nx" },
 ] as const satisfies readonly Skill[];
